@@ -36,16 +36,16 @@ Below are instructions for running a simple demo in which the model is fit to a 
                           betaE: [2x1 double]
                             pgB: [2x1 double]
                             psB: [2x1 double]
-                         sigmaR: 2.0745
+                         sigmaR: 0.0352
     ```
     
-    3. The value of specific parameters, (e.g., betaM for each set size) can be displayed using standard MATLAB conventions for indexing into structures, e.g.:
+    3. The value of specific parameters, (e.g., betaM for each set size) can be displayed using standard MATLAB conventions for indexing into structures. Note the values are in radians. E.g.:
 ```
    >> res.betaM
    
    ans = 
    
-        5.2467
-        7.6534
+        0.0916
+        0.1336
 ```        
  4. For more information try `>> help dpFit`
